@@ -3,8 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="forms.js"></script>
+        <script src="form.js" defer></script>
     </head>
-    <body>        
+    <body>
+        <!-- Task 1: Create an HTML form with input fields for the user's name, email, and message. -->
+        <form id="collector">
+            <!-- Task 3: Implement form validation to ensure that all required fields are filled before submission. -->
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="age" placeholder="Age" required>
+            <input type="text" id="favoriteColor" placeholder="Favorite Color" required>
+            <button type="submit">Submit</button>
+        </form>
     </body>
 </html>
