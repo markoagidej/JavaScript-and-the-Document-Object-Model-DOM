@@ -3,8 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="docs.js"></script>
+        <script src="doc.js" defer></script>
     </head>
-    <body>        
+    <body>
+        <button id="start">Click to display Products!</button>
+        <div id="container"  style="display: none;">
+            <p onmouseover="displayLaptopDetails()">Laptop</p>
+            <p onmouseover="displaySmartphoneDetails()">Smartphone</p>
+            <p onmouseover="displayHeadphonesDetails()">Headphones</p>
+        </div>
+        <div>
+            <p id="display"></p>
+        </div>
     </body>
 </html>
